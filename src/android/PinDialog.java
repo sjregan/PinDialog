@@ -33,7 +33,7 @@ public class PinDialog extends CordovaPlugin {
         	final CordovaInterface cordova = this.cordova;
             final EditText promptInput =  new EditText(cordova.getActivity());
             promptInput.setInputType(InputType.TYPE_CLASS_NUMBER);
-            promptInput.setTransformationMethod(PasswordTransformationMethod.getInstance());
+            //promptInput.setTransformationMethod(PasswordTransformationMethod.getInstance());
            
             Runnable runnable = new Runnable() {
                 public void run() {

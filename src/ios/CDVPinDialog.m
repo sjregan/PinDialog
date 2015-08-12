@@ -31,7 +31,7 @@
         [alertView addButtonWithTitle:[buttons objectAtIndex:n]];
     }
     
-    alertView.alertViewStyle = UIAlertViewStyleSecureTextInput;
+    alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
     UITextField* textField = [alertView textFieldAtIndex:0];
     
     [alertView show];
