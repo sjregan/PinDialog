@@ -1,20 +1,16 @@
 PinDialog
 =========
 
-PhoneGap numeric password dialog plugin for Android and iOS. Forked from https://github.com/apache/cordova-plugin-dialogs.git
+PhoneGap numeric text dialog plugin for Android and iOS. Forked from https://github.com/apache/cordova-plugin-dialogs.git
 
 ## Installation
 
-Latest stable release: ```phonegap local plugin add hu.dpal.phonegap.plugins.pindialog```  
-or ```cordova plugin add hu.dpal.phonegap.plugins.pindialog```
-
-Current state from git: ```phonegap local plugin add https://github.com/Paldom/PinDialog.git```  
-or ```cordova plugin add https://github.com/Paldom/PinDialog.git```
+Current state from git: ```cordova plugin add https://github.com/sjregan/PinDialog.git```
 
 ## Installation - PhoneGap Build 
 
-Add following to config.xml: ```<gap:plugin name="hu.dpal.phonegap.plugins.pindialog" />```
-or ```<gap:plugin name="hu.dpal.phonegap.plugins.pindialog" source="plugins.cordova.io" />```
+Add following to config.xml: ```<gap:plugin name="sjregan.phonegap.plugins.pindialog" />```
+or ```<gap:plugin name="sjregan.phonegap.plugins.pindialog" source="plugins.cordova.io" />```
 
 ## Supported Platforms
 
